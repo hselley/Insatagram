@@ -24,29 +24,33 @@
 <body>
     <!-- Contenedor principal de BS5 -->
     <div class="container">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="logo.jpg" alt="Insatagram Logo" style="width:40px;" class="rounded-pill">
-                    </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="registro.html">Registro</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="consulta.php">Consulta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">Acerca de</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html">
+              <img src="logo.jpg" alt="Insatagram Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="consulta.php">Consulta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Acerca de</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <h2 class="my-5">Usuarios registrados</h2>
       <table class="table table-striped">
         <thead>
